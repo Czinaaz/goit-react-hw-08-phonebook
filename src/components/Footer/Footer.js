@@ -12,10 +12,10 @@ export const Footer = () => {
           href="https://github.com/Czinaaz"
         >
           <span>
-            <FaGithub /> <span className={css.text}>Ivan</span>
-            Rudenko
+            <FaGithub /> <span className={css.text}>Czinaaz</span>
           </span>
         </a>
+        <span className={css.date}>2024</span>
       </div>
     );
   };

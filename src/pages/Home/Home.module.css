@@ -16,6 +16,11 @@
     color: rgb(0, 49, 95);
   }
 
+  .link:hover,
+  .link:focus {
+    color: yellow;
+  }
+
   .logg {
     justify-content: center;
     margin-bottom: 70px;

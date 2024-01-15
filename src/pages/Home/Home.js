@@ -18,17 +18,20 @@ export default function Home() {
           </p>
         </div>
       ) : (
-        <p>
-          Hello, please{' '}
-          <Link to="/login" className={css.link}>
-            login
-          </Link>{' '}
-          or{' '}
-          <Link className={css.link} to="/register">
-            register
-          </Link>{' '}
-          
-        </p>
+        <div>
+          <p className={css.logg}>Welcome to Phonebook !</p>
+          <p>
+            Please{' '}
+            <Link to="/login" className={css.link}>
+              login
+            </Link>{' '}
+            or{' '}
+            <Link className={css.link} to="/register">
+              register
+            </Link>{' '}
+          </p>
+        </div>
+      
       )}
     </div>
   );
